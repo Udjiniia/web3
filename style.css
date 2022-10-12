@@ -1,0 +1,52 @@
+div{
+    font-size: 40px;
+}
+.header{
+    background-color: #168f8f;
+    height: 150px;
+}
+.image-header{
+    background-color: #c86868;
+    height: 150px;
+}
+.img{
+    background-color: chartreuse;
+    height: 300px;
+}
+.text{
+    background-color: darkolivegreen;
+    height: 300px;
+}
+.container-float .img{
+    width: 80%;
+    float: left;
+}
+.container-float .text{
+    width: 20%;
+    float: right;
+}
+.container-float .header{
+    float: none;
+}
+.container-float{
+    width: 45%;
+    text-align: center;
+    float: left;
+}
+.container-flex{
+    width: 45%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+.container-flex .info{
+    flex-direction: row;
+    display: flex;
+}
+.container-flex .img{
+    flex-basis: 80%;
+}
+.container-flex .text{
+    flex-basis: 20%;
+}
